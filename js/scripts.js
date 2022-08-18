@@ -100,44 +100,44 @@ passwordInput.addEventListener('keyup', e => {
     passwordCounter.textContent = countPassword++;
 });
 
-// nameDiv.addEventListener("mouseover", () => {
-//     if (nameInput.value.length > 0) {
-//         nameInput.removeAttribute('disabled', '');
-//         nameInput.setAttribute('enabled', '');
-//     };
-// });
+nameDiv.addEventListener("mouseover", () => {
+    if (nameInput.value.length > 0) {
+        nameInput.removeAttribute('disabled', '');
+        nameInput.setAttribute('enabled', '');
+    };
+});
 
-// nameDiv.addEventListener('mouseleave', () => {
-//     if (nameInput.value.length > 0) {
-//         nameInput.removeAttribute('enabled', '');
-//         nameInput.setAttribute('disabled', '');
-//     };
-// });
+nameDiv.addEventListener('mouseleave', () => {
+    if (nameInput.value.length > 0) {
+        nameInput.removeAttribute('enabled', '');
+        nameInput.setAttribute('disabled', '');
+    };
+});
 
-// emailDiv.addEventListener("mouseover", () => {
-//     if (emailInput.value.length > 0) {
-//         emailInput.removeAttribute('disabled', '');
-//         emailInput.setAttribute('enabled', '');
-//     };
-// });
+emailDiv.addEventListener("mouseover", () => {
+    if (emailInput.value.length > 0) {
+        emailInput.removeAttribute('disabled', '');
+        emailInput.setAttribute('enabled', '');
+    };
+});
 
-// emailDiv.addEventListener('mouseleave', () => {
-//     if (emailInput.value.length > 0) {
-//         emailInput.removeAttribute('enabled', '');
-//         emailInput.setAttribute('disabled', '');
-//     };
-// });
+emailDiv.addEventListener('mouseleave', () => {
+    if (emailInput.value.length > 0) {
+        emailInput.removeAttribute('enabled', '');
+        emailInput.setAttribute('disabled', '');
+    };
+});
 
-// passwordDiv.addEventListener("mouseover", () => {
-//     if (passwordInput.value.length > 0) {
-//         passwordInput.removeAttribute('disabled', '');
-//         passwordInput.setAttribute('enabled', '');
-//     };
-// });
+passwordDiv.addEventListener("mouseover", () => {
+    if (passwordInput.value.length > 0) {
+        passwordInput.removeAttribute('disabled', '');
+        passwordInput.setAttribute('enabled', '');
+    };
+});
 
-// passwordDiv.addEventListener('mouseleave', () => {
-//     if (passwordInput.value.length > 0) {
-//         passwordInput.removeAttribute('enabled', '');
-//         passwordInput.setAttribute('disabled', '');
-//     };
-// });
+passwordDiv.addEventListener('mouseleave', () => {
+    if (passwordInput.value.length > 0) {
+        passwordInput.removeAttribute('enabled', '');
+        passwordInput.setAttribute('disabled', '');
+    };
+});
