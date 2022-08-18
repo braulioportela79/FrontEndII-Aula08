@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: #ffffff;
+}
+
+main {
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 3.43rem;
+}
+
+input {
+  height: 3.75rem;
+  border: 1.53px solid #000;
+  padding-left: 1.68rem;
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #000;
+  font-family: Karla;
+  font-size: 1.25rem;
+}
+
+.formButtons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background: #1cd1b0;
+  border-radius: 23.011px;
+  height: 53.79px;
+  border: none;
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.formButtons button {
+  width: 50%;
+}
+
+.reset {
+  background: #888888;
+  border-radius: 23.011px;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.register {
+  background: #1cd1b0;
+  border-radius: 23.011px;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+
+form a {
+  text-decoration: none;
+  color: #00669f;
+  font-weight: bold;
+}
+
+.mouseover::placeholder,
+.mouseover {
+  color: red;
+}
